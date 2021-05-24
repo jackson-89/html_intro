@@ -1,18 +1,10 @@
-h1 {
-    color: #2da875;
-    font-size: 70px;
+body {background-color: white;}
+
+.introhead {
+
 }
- #secondheading {color: blue;
-                 font-size: 50px; }
-div {
-    font-size: 30px;
-    font-family: "Comic Sans MS", "Comic Sans";
-    color: Purple;
-}
-#divtwo {
-    color: orange;
-}
-.subheading {
-    color: grey;
-    font-size: 45px;
+
+.introinfo {
+    background-color: lightblue;
+    font-size:20px;
 }
