@@ -1,0 +1,99 @@
+body {margin: 10px;
+    background-color: #e0e0eb ;
+}
+
+/* Media Break Points Header */
+
+@media screen and (max-width: 800px) {
+    .list {font-size: 10px;
+       margin:-10px;
+   }
+   .mainheader h1 {position:relative;
+   right:20px;}
+ }
+
+@media screen and (max-width: 600px) {
+     .list {font-size: 10px;
+        margin:-10px;
+    }
+    .mainheader h1 {position:relative;
+    right:20px;}
+  }
+
+
+/* Header Styling */
+.mainheader {background-color: grey;
+height: 75px;
+display: flex;
+justify-content:space-between;
+align-items: center;
+padding:6px;
+border-style: solid;}
+
+.mainheader h1{margin: 50px;
+    font-size: 40px;
+    color: #e0e0eb;
+font-family: monospace;}
+
+nav ul {list-style: none;
+display:flex;
+margin: 0;}
+
+nav ul li {
+    margin: 0;
+    margin-left: 16px;
+    padding: 20px;
+    font-size: 20px;
+    position: relative;
+    right: 100px;}
+
+
+/* Intro Styling */
+
+@media screen and (max-width: 800px) {
+    .intro {flex-direction: column;}
+    img {width:100%;
+    height: auto;}
+    }
+
+@media screen and (max-width: 600px) {
+    .intro {flex-direction: column;}
+    img {width:100%;
+    height: auto;}
+    }
+
+
+    
+
+.intro {padding: 10px;
+    margin-top: 10px;
+display: flex;
+background-color: grey;
+border-style: solid;
+justify-content: center;
+}
+
+.intropic {border-style: solid;
+}
+
+.introtext {flex-direction: column;
+align-items: center;
+justify-content: center;
+color: #e0e0eb;
+position: relative;
+}
+
+.introtext h1 {font-size: 40px;}
+
+.introhead{position: relative;
+    left: 40%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.para {
+font-size: 20px;
+position: relative;
+left: 10px;
+font-family: Georgia, 'Times New Roman', Times, serif;}
+
+
