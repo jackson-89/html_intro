@@ -1,11 +1,11 @@
 body {margin: 10px;
-    background-color: #e0e0eb ;
+    background-color: rgb(90, 216, 233) ;
 }
 
 /* Media Break Points Header */
 
 @media screen and (max-width: 800px) {
-    .list {font-size: 10px;
+    .list {font-size: 15px;
        margin:-10px;
    }
    .mainheader h1 {position:relative;
@@ -13,7 +13,7 @@ body {margin: 10px;
  }
 
 @media screen and (max-width: 600px) {
-     .list {font-size: 10px;
+     .list {font-size: 15px;
         margin:-10px;
     }
     .mainheader h1 {position:relative;
@@ -43,7 +43,7 @@ nav ul li {
     margin: 0;
     margin-left: 16px;
     padding: 20px;
-    font-size: 20px;
+    font-size: 30px;
     position: relative;
     right: 100px;}
 
