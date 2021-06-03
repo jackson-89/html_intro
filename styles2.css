@@ -56,9 +56,12 @@ nav ul li {
     }
 @media screen and (max-width: 600px) {
     .intro {flex-direction: column;}
-    .intropic{width:100%;}
+    .intropic{width:100%;
+    height:auto;}
     }
 
+    /* Content Styling */
+    
 .intro {padding: 10px;
     margin-top: 10px;
 display: flex;

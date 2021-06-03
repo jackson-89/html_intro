@@ -48,7 +48,7 @@ nav ul li {
     right: 100px;}
 
 
-/* Intro Styling */
+/* Intro Break Points */
 
 @media screen and (max-width: 800px) {
     .intro {flex-direction: column;}
@@ -62,8 +62,7 @@ nav ul li {
     height: auto;}
     }
 
-
-    
+/* Intro Styling */
 
 .intro {padding: 10px;
     margin-top: 10px;

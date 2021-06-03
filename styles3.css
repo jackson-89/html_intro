@@ -5,7 +5,7 @@ body {margin: 10px;
 /* Media Break Points Header */
 
 @media screen and (max-width: 800px) {
-    .list {font-size: 10px;
+    .list {font-size: 15px;
        margin:-10px;
    }
    .mainheader h1 {position:relative;
@@ -13,7 +13,7 @@ body {margin: 10px;
  }
 
 @media screen and (max-width: 600px) {
-     .list {font-size: 10px;
+     .list {font-size: 15px;
         margin:-10px;
     }
     .mainheader h1 {position:relative;
@@ -43,12 +43,12 @@ nav ul li {
     margin: 0;
     margin-left: 16px;
     padding: 20px;
-    font-size: 20px;
+    font-size: 30px;
     position: relative;
     right: 100px;}
 
 
-/* Intro Styling */
+/* Blog Break Points*/
 
 @media screen and (max-width: 800px) {
     .intro {flex-direction: column;}
@@ -58,12 +58,12 @@ nav ul li {
 
 @media screen and (max-width: 600px) {
     .intro {flex-direction: column;}
-    img {width:100%;
+    .intropic{width:100%;
     height: auto;}
     }
 
 
-    
+/* Blog Styling */
 
 .intro {padding: 10px;
     margin-top: 10px;
@@ -74,6 +74,7 @@ justify-content: center;
 }
 
 .intropic {border-style: solid;
+    height: 100%;
 }
 
 .introtext {flex-direction: column;
