@@ -1,5 +1,5 @@
 body {margin: 10px;
-    background-color: rgb(90, 216, 233) ;
+    background-color: rgb(90, 216, 233);
 }
 
 /* Media Break Points Header */
@@ -95,6 +95,35 @@ position: relative;
 left: 10px;
 font-family: Georgia, 'Times New Roman', Times, serif;}
 
+/* Media Break Points For Footer */
+
+@media screen and (max-width: 800px) {
+   .mainfooter h1 {position:relative;
+   right:20px;}
+ }
+
+@media screen and (max-width: 600px) {
+    .mainfooter h1 {position:relative;
+    right:20px;}
+  }
+
+/* Footer Styling */
+
+.mainfooter {background-color: grey;
+    height: 75px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:6px;
+    border-style: solid;
+margin-top: 10px;}
+    
+    .mainfooter h1{margin: 50px;
+        font-size: 40px;
+        color: #e0e0eb;
+    font-family: monospace;}
+    
+    
 
 
 
